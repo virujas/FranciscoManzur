@@ -1,0 +1,364 @@
+/*vista desktop*/
+@media only screen and (min-width: 1024px) {}
+
+/*VISTA tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    // menu hamburguesa
+
+    .navbar-toggler {
+        border: inset 2px white !important;
+        margin-right: 50px
+    }
+
+    .navbar-toggler-icon {
+        background-color: $bgdefault !important;
+    }
+
+    // index
+
+    .cabezera {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        margin-top: 300px;
+        color: $negro;
+        font-weight: bold;
+        margin-left: 40px !important;
+        text-align: left;
+    }
+
+    p {
+        margin-left: 40px !important;
+        text-align: left;
+        color: $blanco;
+    }
+
+    .sobreMi--index {
+        h6 {
+            padding-left: 50px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            padding-left: 10px;
+        }
+    }
+
+    .portafolio--index {
+
+
+        p {
+            font-size: 20px;
+            color: $negro;
+            padding-left: 1px;
+            padding-bottom: 10px;
+        }
+
+        h6 {
+            color: $colorh1;
+            font-size: 30px;
+            padding-bottom: 5px;
+            padding-left: 40px;
+        }
+
+        &__nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            ul {
+                list-style: none;
+                text-decoration: none;
+            }
+
+            li {
+                padding-left: 1px;
+                text-decoration: none;
+                display: flex;
+                flex-direction: row;
+                justify-items: center;
+            }
+
+            a {
+                padding-top: 20px;
+                padding-left: 50px;
+                text-decoration: none;
+            }
+        }
+
+
+    }
+
+    #vm {
+
+        padding-left: 50px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    // servicios
+    .fa-lightbulb-o {
+        margin-left: 35px;
+    }
+
+    #icoServ {
+        color: $colorh1;
+    }
+
+    //Sobre Mi
+    .sobreMi {
+        color: $negro;
+        font-size: 18px;
+        background-color: $bgdefault;
+
+        p {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+        img {
+            height: auto;
+            width: 100%;
+            margin-left: 5px !important;
+        }
+
+        &__clientesrec {
+            background-color: $bgdefault;
+            color: $negro;
+            font-size: 18px;
+            padding-top: 50px;
+            padding-bottom: 100px;
+
+            p {
+                color: $negro;
+            }
+        }
+    }
+
+    //contacto
+    .footcontenido {
+        h5 {
+            color: $bgdefault;
+            font-size: 35px;
+            text-align: left;
+            margin-left: 40px;
+            margin-top: 50px;
+        }
+
+        h6 {
+            color: $bgdefault;
+            font-size: 40px;
+            margin-left: 325px;
+            margin-top: 50px;
+
+        }
+    }
+
+    #contactoIcon {
+        i {
+            width: 0%;
+            margin-left: 20px;
+            margin-right: 0px;
+            color: $bgdefault;
+        }
+    }
+}
+
+/*vista mobile*/
+
+@media only screen and (max-width: 767px) {
+
+    // menu hamburguesa
+    .navbar-toggler {
+        border: inset 2px white !important;
+        margin-right: 30px;
+    }
+
+    .navbar-toggler-icon {
+        background-color: $bgdefault !important;
+    }
+
+    // Index 
+
+    .cabezera {
+        margin-bottom: 0;
+
+
+        h1 {
+            margin-top: 300px;
+            color: $blanco;
+            font-weight: bold;
+            margin-left: 40px !important;
+            text-align: left;
+        }
+
+        img {
+            height: auto;
+        }
+
+        p {
+            margin-left: 20px !important;
+            text-align: left;
+            color: $blanco;
+        }
+    }
+
+    .sobreMi--index {
+        h6 {
+            padding-left: 30px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            padding-left: 30px;
+        }
+    }
+
+    .portafolio--index {
+
+
+        p {
+            font-size: 20px;
+            color: $negro;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+
+        h6 {
+            color: $colorh1;
+            font-size: 30px;
+            padding-bottom: 5px;
+            padding-left: 0px;
+            margin-left: 30px;
+        }
+
+        &__nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            ul {
+                list-style: none;
+                text-decoration: none;
+            }
+
+            li {
+                padding-left: 1px;
+                text-decoration: none;
+                display: flex;
+                flex-direction: row;
+                justify-items: center;
+            }
+
+            a {
+                padding-top: 20px;
+                padding-left: 50px;
+                text-decoration: none;
+            }
+        }
+
+
+    }
+
+    #vm {
+
+        padding-left: 50px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    //Servicios
+
+    .row {
+        img {
+            height: auto;
+        }
+    }
+
+    .marcos {
+        h1 {
+            font-size: 80px !important;
+        }
+    }
+
+    #icoServ {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 30px;
+        margin-right: 25px;
+        color: $colorh1;
+    }
+
+    //Sobre Mi
+    .sobreMi {
+        color: $negro;
+        font-size: 18px;
+        background-color: $bgdefault;
+        padding-bottom: 5px;
+
+        img {
+            height: auto;
+            width: 100%;
+            margin-left: 5px !important;
+        }
+
+        p {
+            padding-bottom: 5px;
+        }
+
+        &__clientesrec {
+            background-color: $bgdefault;
+            color: $negro;
+            font-size: 18px;
+            padding-top: 50px;
+            padding-bottom: 100px;
+
+            p {
+                color: $negro;
+            }
+        }
+    }
+
+    //contacto
+    .footcontenido {
+        h1 {
+            padding-left: 0px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        h5 {
+            color: $bgdefault;
+            font-size: 35px;
+            text-align: left;
+            margin-left: 40px;
+            margin-top: 50px;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+
+        h6 {
+            color: $bgdefault;
+            font-size: 40px;
+            margin-left: 130px;
+            margin-top: 50px;
+
+        }
+
+    }
+
+    #contactoIcon {
+        i {
+            width: 0%;
+            margin-left: 20px;
+            margin-right: 0px;
+            color: $bgdefault;
+        }
+    }
+}

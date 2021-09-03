@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  color: #e0e2f4;
+}
+
+body,
+p {
+  font: normal 20px "VT323", monospace;
+}
+
+h1 {
+  font: normal 44px "VT323", monospace;
+}
+
+h2 {
+  font: normal 36px "VT323", monospace;
+}
+
+h3 {
+  font: normal 24px "VT323", monospace;
+}
+
+h4 {
+  font: normal 20px "VT323", monospace;
+}
+
+body {
+  background: #0414a7;
+}
+
+nav {
+  font-family: "VT323", monospace;
+  font-size: 30px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 640px;
+}
+
+.ajust {
+  padding-top: 10%;
+}
+
+.ajust .txt {
+  text-align: center;
+  color: #0414a7;
+}
+
+.ajust .txt .bg {
+  background: grey;
+  padding: 0 15px 2px 13px;
+}
+
+.ajust .title {
+  margin-bottom: 50px;
+}
+
+.ajust .nav {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.ajust .nav .link {
+  text-decoration: none;
+  padding: 0 9px 2px 8px;
+}
+
+.ajust .nav .link:hover, .ajust .nav .link:focus {
+  background: grey;
+  color: #0414a7;
+}
+/*# sourceMappingURL=error404.css.map */

@@ -1,0 +1,83 @@
+// index - sections
+.portafolio--animacion {
+	transition: all 0.5s;
+	width: 40%;
+
+}
+
+.portafolio--animacion:hover {
+	width: 35%;
+	background-color: rgb(131, 153, 250);
+	text-transform: uppercase;
+}
+
+.verMas--animacion {
+	transition: all 0.5s;
+}
+
+.verMas--animacion:hover {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 50px;
+}
+
+.verMasp--animacion {
+	transition: all 0.5s;
+}
+
+.verMasp--animacion:hover {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $colorh1;
+	font-size: 50px;
+}
+
+// portafolio
+.--animacion--trabajos figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.--animacion--trabajos figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+
+// Servicios 
+
+.marcos__color-hover:hover {
+	color: #337AB7;
+}
+
+.marcos__up-hover:hover {
+	top: -5px;
+	box-shadow: 15px 15px 15px #777;
+}
+
+// footer - contacto
+.footer--movimiento {
+	transition: all 0.1s;
+}
+
+.footer--movimiento:hover {
+	transform: translateY(-6px);
+	color: $blanco;
+}
+
+.contacto--animacion {
+	transition: all 1s;
+	width: 40%;
+
+}
+
+.contacto--animacion:hover {
+	width: 35%;
+	background-color: $bgdefault;
+	text-transform: uppercase;
+	
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+$grisclaro: #e0e2f4;
+$azulwin: #0414a7;
+$gris:grey;
+
+$fuentesize: 20px;
+$fuente: 'VT323', monospace;
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    color: $grisclaro;
+}
+
+body,
+p {
+    font: normal 20px $fuente;
+}
+
+h1 {
+    font: normal 44px $fuente;
+}
+
+h2 {
+    font: normal 36px $fuente;
+}
+
+h3 {
+    font: normal 24px $fuente;
+}
+
+h4 {
+    font: normal 20px $fuente;
+}
+
+body {
+    background: $azulwin;
+}
+
+nav{
+    font-family: $fuente;
+    font-size:30px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 640px;
+}
+
+.ajust {
+    padding-top: 10%;
+
+    .txt {
+        text-align: center;
+        color: $azulwin;
+
+        .bg {
+            background: $gris;
+            padding: 0 15px 2px 13px;
+        }
+    }
+
+    .title {
+        margin-bottom: 50px;
+    }
+
+    .nav {
+        margin-top: 35px;
+        text-align: center;
+
+        .link {
+            text-decoration: none;
+            padding: 0 9px 2px 8px;
+
+            &:hover,
+            &:focus {
+                background: $gris;
+                color: $azulwin;
+            }
+        }
+    }
+}
