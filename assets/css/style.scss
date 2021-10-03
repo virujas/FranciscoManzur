@@ -6,7 +6,13 @@
 
 .menu {
     word-spacing: 10px;
-    background-color: $bgMenu;
+    background-color: $negro;
+    border:solid 1px #1d1d1d;
+
+    img{
+        width: 65px!important;
+        height: auto;
+    }
 
     &__nav {
         word-spacing: 10px;
@@ -33,116 +39,218 @@
 // Index 
 
 .cabezera {
+    padding-bottom: 305px;
     margin-bottom: 0;
 
     h1 {
         margin-top: 400px;
         color: $blanco;
         font-weight: bold;
-        margin-left: 150px;
+        margin-left: 200px;
         text-align: left;
+        font-size: 120px;
     }
 
-    img {
+    img{
         position: absolute;
-        width: 99% !important;
+        width: 100% !important;
         margin: 0px 0px 0px 0px !important;
-        height: 500px;
+        height: auto;
         z-index: -1;
         margin-left: 30px;
         overflow: hidden !important;
         right: 0px;
     }
 
-    p {
-        margin-left: 150px;
+     p {
+        margin-left: 205px;
+        font-size:40px;
         text-align: left;
         color: $blanco;
     }
 }
-
 // index - sections
 
 .sobreMi--index {
     color: $blanco;
-    background-color: #020F59;
+    background-color: #191919;
     font-size: 25px;
-    padding: 200px 15px 200px 0px !important;
+    padding: 50px 15px 0px 0px !important;
 
     p {
 
         font-size: 25.6px;
         padding-left: 300px;
         padding-right: 400px;
+        margin-top:50px;
     }
 
     h6 {
-        font-size: 20px;
-        padding-left: 300px;
+        position:absolute;
+        z-index: 1111;
+        font-size: 300px;
+        left:50px;
+        color:rgba(255, 255, 255, 0.089);
+        font-weight: bold;
         padding-right: 300px;
+        margin-bottom:200px;
+        top: -180px;
     }
 
     a {
-        padding-top: 20px;
-        padding-left: 50px;
+        font-size:20px;
+        margin-left: 80px;
+        padding: 5px 25px 5px 25px;
         font-weight: bold;
+        background-color: $blanco;
         text-decoration: none;
+        color:$bgfooter;
     }
 }
 
 .portafolio--index {
     color: $negro;
-    background-color: $bgdefault;
-    font-size: 20px;
-    padding: 180px 150px 140px 150px;
+    background-color: #0e0e0e;
+    font-size: 30px;
+    padding: 180px 150px 0px 150px;
 
     h6 {
-        color: #03178C;
-        font-size: 20px;
+        position:absolute;
+        top: -120px;
+        font-weight: bold;
+        font-size: 220px!important;
+        z-index: 1111;
+        color:rgba(255, 255, 255, 0.082);
+        font-size: 40px;
         padding-bottom: 30px;
-        padding-left: 300px;
+        padding-left: 1000px;
     }
 
 
-    &__nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
 
-        ul {
-            list-style: none;
-            text-decoration: none;
-        }
+    // &__nav {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-between;
 
-        li {
-            padding-left: 300px;
-            text-decoration: none;
-            display: flex;
-            flex-direction: row;
-            justify-items: center;
-            font-size: 48px;
-            line-height: 72px;
-        }
+    //     ul {
+    //         list-style: none;
+    //         text-decoration: none;
+    //     }
 
-        a {
-            padding-top: 20px;
-            text-decoration: none;
-        }
-    }
+    //     li {
+    //         padding-left: 300px;
+    //         text-decoration: none;
+    //         display: flex;
+    //         flex-direction: row;
+    //         justify-items: center;
+    //         font-size: 30px;
+    //         font-weight: bold;
+    //         line-height: 45px;
+    //     }
+
+    //     a {
+    //         padding: 10px 50px 10px 50px;
+    //         font-weight: bold;
+    //         border-radius:100px;
+    //         color: $blanco!important;
+    //     }
+    // }
 }
 
-#vm {
+.bordeImgPortfolio{
+    text-align: center;
+    
 
-    padding-left: 350px;
+    img{
+        width: 100%;
+        height: 50%;
+    }
+
+    &__shadow {
+        margin: 10px 10px 10px 10px;
+        box-shadow: 7px 7px 7pxrgb(255, 255, 255);
+        position: relative;
+        transition: all 0.2s;
+        top: 0;
+        border-radius: 40px;
+        background-color:white;
+    }
+}
+#vm {
+    font-size:20px;
+    margin-left: 335px;
+    padding: 5px 25px 5px 25px;
     font-weight: bold;
+    background-color: $negro;
     text-decoration: none;
+}
+
+
+.marcoindex {
+    text-align: center;
+  padding: 50px 10px 40px 10px;
+ margin: 20px 40px 0px 40px;
+
+    &--cajas{
+        padding: 15px 10px 15px 10px!important;
+    }
+
+    &__contenedor{
+        width:100%;
+        display:flex;
+        justify-content: center!important;
+        align-items: center!important;
+        height: 300px;
+    }
+
+    &__contenedor figure{
+        position:relative;
+        // height: 250px;
+        width:350px;
+        border-radius:6px;
+        overflow:hidden;
+        cursor:pointer;
+        align-self: initial;
+    
+    }
+    
+    &__contenedor figure img {
+        width: 100%;
+        height: auto;
+    }
+    // &__contenedor figure .texttest{
+        
+    //         position:absolute;
+    //         top:0;
+    //         width: 100%;
+    //         height: 100%;
+    //         background: white;
+    //         transition: all 500ms ease-out;
+    //         opacity: 0;
+    //         visibility: hidden;
+    //         text-align: center;
+    //         border-radius: 40px;
+    //         color:black;
+            
+    //     }
+
+
+    &__shadow {
+        margin: 10px 10px 10px 10px;
+        box-shadow: 7px 7px 7pxrgb(255, 255, 255);
+        position: relative;
+        transition: all 0.2s;
+        top: 0;
+        background-color:rgba(88, 87, 87, 0.322);
+    }
 }
 
 // footer
 
 .footer {
     padding-top: 30px;
-    background-color: $bgfooter;
+    background-color: #000000;
     color: $blanco;
     font-size: 20px;
 
@@ -191,26 +299,32 @@
 
 .encabezadoPortafolio {
     color: $negro;
-    font-size: 20px;
-    text-align: left;
-    padding: 50px 50px 50px 50px;
-    background-color: $bgdefault;
+    background-color: #0e0e0e;
+    font-size: 30px;
+    padding: 180px 150px 0px 150px;
 
     h1 {
-        color: #03178C;
-        font-size: 20px;
-        margin-top: 15px;
-        margin-left: 15px;
-        padding-left:150px;
+        position:absolute;
+        top: 120px;
+        font-weight: bold;
+        font-size: 150px!important;
+        z-index: 1111;
+        color:rgba(255, 255, 255, 0.226);
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right:100px;
     }
 
-    p {
-        color: $negro;
-        font-size: 42px;
-        margin-left: 15px;
-        padding-left:150px;
-        padding-bottom: 50px;
-    }
+
+  
+    // p {
+    //     color: $blanco;
+    //     font-size: 35px;
+    //     margin-left: 15px;
+    //     padding-left:150px;
+    //     padding-bottom: 50px;
+    // }
 
 }
 
@@ -220,7 +334,7 @@
 
 .portafolio__body {
     width: 100%;
-    background-color: $bgdefault !important;
+    background-color: #191919 !important;
     margin-left: 0px !important;
 }
 
@@ -228,14 +342,14 @@
 
     h3 {
         font-size: 25px;
-        color: $negro;
+        color: $blanco;
         text-align: center;
 
     }
 
     p {
         font-size: 15px;
-        color: $negro;
+        color: $blanco;
         text-align: center;
         padding-bottom: 50px;
     }
@@ -244,11 +358,11 @@
 
 .--animacion--trabajos {
     h3 {
-        color: $colorh1;
+        color: $blanco;
     }
 
     p {
-        color: $negro;
+        color: $blanco;
     }
 }
 
@@ -258,8 +372,8 @@
     color: $negro;
     font-size: 20px;
     text-align: left;
-    padding: 0px 50px 50px 50px;
-    background-color: $bgdefault;
+    padding: 50px 50px 100px 50px!important;
+    background-color: #0e0e0e;
 
     img {
         width: 100.8%;
@@ -268,39 +382,50 @@
     }
 
     h1 {
-        color: #03178C;
-        font-size: 20px;
-        padding-top: 55px;
-        margin-left: 15px;
-        padding-left:200px;
-    }
-
-    p {
-        color: $negro;
+        position:absolute;
+        top: 80px;
+        font-weight: bold;
+        font-size: 150px!important;
+        z-index: 1111;
+        color:rgba(255, 255, 255, 0.226);
         font-size: 40px;
-        margin-left: 15px;
-        padding-bottom: 50px;
-        padding-left:200px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right:100px;
+    }
+   
+}
+
+.textAjuste{
+    h3{
+        color:white;
+        size:30px!important;
+        padding-top:50px;
     }
 }
 
 .marcos {
     text-align: center;
-    padding: 20px 40px 200px 40px;
+    padding: 50px 40px 80px 40px;
     margin: 20px 40px 0px 40px;
 
     h1 {
         font-size: 200px;
+        color: #505050;
+    }
+
+    h2{
+        color:rgb(0, 0, 0);
     }
 
     &__shadow {
         margin: 10px 10px 10px 10px;
-        box-shadow: 7px 7px 7px#666;
+        box-shadow: 7px 7px 7pxrgb(255, 255, 255);
         position: relative;
         transition: all 0.2s;
         top: 0;
         border-radius: 40px;
-        background-color: #d4d3d3;
+        background-color:white;
     }
 }
 
@@ -311,63 +436,63 @@
 // Sobre Mi
 
 .sobreMi {
-    color: $negro;
+    background-image: url("../images/sobremi.jpg")!important;
+    background-size:cover;
+    color: $blanco;
     font-size: 18px;
-    background-color: $bgdefault;
-    padding-bottom: 100px;
-
-    // img {
-    //     height: 60%;
-    //     margin-left: 12%;
-    // }
+    padding: 50px 150px 100px 150px;
 
     h1 {
-        color: $colorh1;
-        font-size: 20px;
-        font-style: normal;
-        margin-top: 50px;
-        margin-left: 200px;
+        position:absolute;
+        top: 550px;
+        font-weight: bold;
+        font-size: 200px!important;
+        z-index: 1111;
+        color:rgba(223, 222, 222, 0.24);
+        font-size: 40px;
+        padding-left: 1040px;
+        padding-right:100px;
+
     }
 
     h2 {
-        color: $negro;
+        color: $blanco;
         text-align: left;
         margin: 30px 40px 10px 50px;
-        padding: 30px 0px 10px 150px;
+        padding: 30px 0px 10px 75px;
         font-size: 70px;
         font-weight: 400;
     }
     h3 {
-        color: $negro;
+        color: $blanco;
         text-align: left;
-        margin: 2px 40px 20px 50px;
-        padding: 2px 0px 20px 150px;
+        margin: 2px 40px 50px 50px;
+        padding: 2px 0px 10px 80px;
         font-size: 20px;
         font-weight: 400;
     }
     p {
-        color: $negro;
+        color: $blanco;
         text-align: left;
-        margin: 0px 40px 40px 50px;
-        padding: 15px 200px 100px 150px;
+        margin: 0px 40px 0px 50px;
+        padding: 15px 200px 120px 80px;
         font-size: 25px;
-        background-color: $bgdefault;
     }
 
     &__mail {
         padding: 150px 0px 150px 0px;
         text-decoration: none;
-        background-color: #020F59;
+        background-color: #191919;
 
         h5 {
-            color: $bgdefault;
+            color: $blanco;
             font-size: 50px;
             text-align: center;
             text-decoration: none;
             font-weight: bold;
         }
         a{
-            color:$bgdefault;
+            color:$blanco;
         }
 
         p{
@@ -376,79 +501,53 @@
             margin-top:15px;
         }
     }
-
-    &__clientesrec {
-        background-color: $bgdefault;
-        color: $negro;
-        font-size: 20px;
-        padding-top: 50px;
-        padding-bottom: 100px;
-
-        h6 {
-            font-size: 20px;
-            color: #03178C;
-            margin-left: 20px;
-            padding: 15px 200px 10px 150px;
-        }
-
-        p {
-            padding: 15px 200px 10px 150px;
-            margin-left: 15px;
-            font-size: 30px;
-        }
-    }
 }
-
 //contacto
 
 .footcontenido {
-    background-color: #1B2142;
-    color: $bgdefault;
+    background-color: #0e0e0e;
+    padding: 20px 30px 0px 30px;
+    color: $blanco;
     font-size: 20px;
     height: 100%;
-    padding-bottom: 65px;
 
     h1 {
-        font-size: 20px;
-        margin-left: 350px;
-        margin-top: 150px;
-        color: $bgdefault;
-    }
-
-    h5 {
-        color: $bgdefault;
-        font-size: 40px;
-        text-align: left;
-        margin-left: 350px;
-        margin-top: 50px;
+        margin-bottom:0px!important;
+        padding-bottom:0px!important;
+        font-size: 200px;
+        margin-left: 150px;
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.144);
         font-weight: bold;
-        a{
-        padding-right:50px;
-        }
-        
-    }
 
-    p {
-        margin-left: 40px;
-        text-align: left;
-        color: $bgdefault;
-        margin-left: 350px;
     }
+  }
 
-    h6 {
-        color: $bgdefault;
-        font-size: 20px;
-        margin-left: 350px;
-        margin-top: 50px;
-    }
+.form--{
+    left:500px!important;
+    top:-100px!important;
+
+
+&contacto{
+    padding-left: 280px;
+    left: 600px;
 }
 
+&boton{
+    background-color: grey!important;
+    color:white!important;
+    font-weight: bold!important;
+    border: inset 1px white!important;
+    cursor:pointer!important;
+
+}
+ }
 #contactoIcon {
     i {
         width: 0%;
         margin-left: 20px;
         margin-right: 0px;
-        color: $bgdefault;
+        color: $blanco;
     }
 }
 
