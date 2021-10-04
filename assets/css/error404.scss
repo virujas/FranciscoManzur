@@ -5,7 +5,8 @@ $azulwin: #0414a7;
 $gris:grey;
 
 $fuentesize: 20px;
-$fuente: 'VT323', monospace;
+$fuente: 'VT323',
+monospace;
 
 body,
 h1,
@@ -42,9 +43,9 @@ body {
     background: $azulwin;
 }
 
-nav{
+nav {
     font-family: $fuente;
-    font-size:30px;
+    font-size: 30px;
 }
 
 .container {
